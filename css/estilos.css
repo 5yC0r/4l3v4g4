@@ -1,0 +1,29 @@
+.contenedor-global
+{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.menu
+{
+	background-color: red;
+	margin-bottom: 20px;
+}
+.slider
+{
+	background-color: blue;
+	margin-bottom: 20px;
+}
+
+.areas
+{
+	background-color: green;
+	margin-bottom: 20px;
+}
+
+.publicidad
+{
+	background-color: skyblue;
+	margin-bottom: 20px;
+}

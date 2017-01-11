@@ -12,22 +12,48 @@
 
 		<!-- bloque uno logo, redes sociales y busqueda -->
 		<div class="menu">	
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
-		
+
 		<!-- bloque dos silder -->
 		<div class="slider">
-			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 		</div>
 
 
 		<!-- bloque tres Areas de darrollo  -->
 		<div class="areas">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
 			
 		</div>
 
 		<!-- bloque cuatro  publicidad -->
 		<div class="publicidad">
-			
+			<br>
+			<br>
+			<br>		
 		</div>
 
 		<!-- bloque cinco descripcion de la empresa con slider-->
