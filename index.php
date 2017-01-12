@@ -22,7 +22,15 @@
 				
 			</div>
 			<div class="navegador right">
-				
+				<nav>
+					<ul>
+						<li><a href="">Inicio</a></li>
+						<li><a href="">Dominios</a></li>
+						<li><a href="">Hosting</a></li>
+						<li><a href="">Hardware</a></li>
+						<li><a href="">Aplicaciones Android</a></li>
+					</ul>
+				</nav>
 			</div>
 		</div>
 
