@@ -1,29 +1,66 @@
+header
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
 .contenedor-global
 {
-	width: 1000px;
+	width: 1200px;
 	margin: 0 auto;
-
 }
-
+/* bloque1*/
 .menu
 {
 	background-color: red;
 	margin-bottom: 20px;
+	width: 1200px;
+	margin: 0 auto;
 }
+
+.menu-fijo
+{
+	background-color: red;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+/* bloque2*/
 .slider
 {
 	background-color: blue;
 	margin-bottom: 20px;
 }
-
+/* bloque3*/
 .areas
 {
 	background-color: green;
 	margin-bottom: 20px;
 }
+/* bloque4*/
 
 .publicidad
 {
 	background-color: skyblue;
+	margin-bottom: 20px;
+}
+/* bloque5*/
+.descripcion
+{
+	background-color: gray;
+	margin-bottom: 20px;
+}
+
+/* bloque6*/
+.tecnologias
+{
+	background-color: brown;
+	margin-bottom: 20px;
+}
+
+/* bloque7*/
+.footer
+{
+	background-color: pink;
 	margin-bottom: 20px;
 }
