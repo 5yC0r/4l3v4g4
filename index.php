@@ -4,37 +4,42 @@
 	<meta charset="UTF-8">
 	<title>Syar Corp</title>
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/coin-slider-styles.css">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/coin-slider.js"></script>
 	<script src="js/main.js"></script>
 </head>
-<header>
-	<!-- bloque uno logo, redes sociales y busqueda -->
-	<div class="menu">	
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-		</div>
-</header>
 
 <body>
 
 	<div class="contenedor-global">
 
+		<!-- bloque uno logo y menu-->
+		<div class="menu">	
+			<div class="logo left">
+				<img src="images/logo.png" >
+				
+			</div>
+			<div class="navegador right">
+				
+			</div>
+		</div>
+
 		<!-- bloque dos silder -->
 		<div class="slider">
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
+			<a href="img01_url" target="_blank">
+				<img src='images/1.jpg' >
+				<span>
+					Description for img01
+				</span>
+			</a>
+			<a href="imgN_url">
+				<img src='images/2.jpg' >
+				<span>
+					Description for imgN
+				</span>
+			</a>
 		</div>
 
 

@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	$(window).scroll(function(){
-		console.log('hola');
 		if ($(this).scrollTop()>10) {
 			$('.menu').addClass('menu-fijo');
 			$('.menu').removeClass('menu');
@@ -9,4 +8,6 @@ $(document).ready(function(){
 			$('.menu-fijo').removeClass('menu-fijo');
 		}
 	});
+
+	$('.slider').coinslider({ width: 900, navigation: false, delay: 3000 });
 });

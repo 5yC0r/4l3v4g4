@@ -1,13 +1,10 @@
-header
-{
-	width: 100%;
-	margin-bottom: 20px;
-}
+
 .contenedor-global
 {
 	width: 1200px;
 	margin: 0 auto;
 }
+
 /* bloque1*/
 .menu
 {
@@ -20,9 +17,20 @@ header
 .menu-fijo
 {
 	background-color: red;
+	width: 1200px;
 	position: fixed;
-	width: 100%;
 	top: 0;
+}
+
+.logo
+{
+	width: 25%;
+	background-color: white;
+}
+.navegador
+{
+	width: 80%;
+	background-color: gray;
 }
 
 /* bloque2*/
@@ -30,6 +38,7 @@ header
 {
 	background-color: blue;
 	margin-bottom: 20px;
+	margin-top: 20px;
 }
 /* bloque3*/
 .areas
