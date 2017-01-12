@@ -12,6 +12,7 @@
 	margin-bottom: 20px;
 	width: 1200px;
 	margin: 0 auto;
+	z-index: 99;
 }
 
 .menu-fijo
@@ -20,6 +21,7 @@
 	width: 1200px;
 	position: fixed;
 	top: 0;
+	z-index: 99;
 }
 
 .logo
@@ -34,11 +36,12 @@
 }
 
 /* bloque2*/
-.slider
+#slider
 {
 	background-color: blue;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	/*margin-bottom: 20px;
+	margin-top: 20px;*/
+	margin: 20px auto;
 }
 /* bloque3*/
 .areas

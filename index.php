@@ -27,7 +27,7 @@
 		</div>
 
 		<!-- bloque dos silder -->
-		<div class="slider">
+		<div id="slider">
 			<a href="img01_url" target="_blank">
 				<img src='images/1.jpg' >
 				<span>
