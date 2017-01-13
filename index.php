@@ -53,53 +53,62 @@
 
 		<!-- bloque tres Areas de darrollo  -->
 		<div class="areas">
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
+			<div id = "titulo-areas">Areas de Desarrollo</div>
+
+			<div class="contenedor-areas">
+				<div class="cuadro-area">
+				
+				</div>
+				<div class="cuadro-area">
+					
+				</div>	
+				<div class="cuadro-area">
+					
+				</div>	
+				<div class="cuadro-area">
+				</div>
+			</div>			
 		</div>
 
 		<!-- bloque cuatro  publicidad -->
 		<div class="publicidad">
-			<br>
-			<br>
-			<br>		
+			<div id="publicidad-texto" class="left">
+				¿Desea una mejor atención? <br>
+				¿Un mejor servicio? <br>
+				Nuestro equipo de soporte esta a su servicio 24/7.
+			</div>		
+			<div id="publicidad-link" class="right">
+				<a href="">Atención</a>
+			</div>
 		</div>
 
 		<!-- bloque cinco descripcion de la empresa con slider-->
 		<div class="descripcion">
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
+			<div id="porque">
+				<div class="porque-titulo">Sobre <span>SyArPC</span></div>
+				<div class="porque-texto" class="left">
+                    SyArPC Soluciones Informáticas - Hosting, Dominios, Diseño web, Diseño Gráfico, Logos, Venta de Software, Venta de Hardware, Soporte PC y mucho mas. <br>
+					Tenemos como principal objetivo, brindar soluciones para todo tipo de proyecto que desee llevar a cabo y a su vez llevar el mantenimiento de estos. <br><br>Nos comprometemos en la creación de soluciones globales para las empresas de todos los sectores, en forma activa, eficiente y rentable ajustándonos a sus presupuestos.<br> 
+				</div>
+			</div>
+			<div id="ultimos-proyectos" class="right">
+				
+			</div>
 		</div>
-
 		<!-- bloque seis tecnologias -->
 
 		<div class="tecnologias">
-			<br>
-			<br>
-			<br>
-			<br>
-			
+			<marquee direction="LEFT">
+				<img height="100"  width="180" src="images/logos/1.png"  /> 
+				<img height="100"  width="180" src="images/logos/2.png"  />  
+  				<img height="100"  width="180" src="images/logos/3.png"  />  
+	  		</marquee> 
 		</div>
 
 		<!-- bloque siete footer -->
 		<div class="footer">
+
+			aqui va el footer
 			<br>
 			<br>
 			<br>

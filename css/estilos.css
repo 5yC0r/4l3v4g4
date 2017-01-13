@@ -103,24 +103,58 @@ ul{
 	background-color: green;
 	margin-bottom: 20px;
 }
+#titulo-areas{
+	text-align: center;
+	font-size: 40px;
+}
+.contenedor-areas{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.cuadro-area{
+	width: 24%;
+	height: 100px;
+	background-color: white;
+	display: inline-block;
+}
+
 /* bloque4*/
 
 .publicidad
 {
+	width: 100%;
 	background-color: skyblue;
 	margin-bottom: 20px;
+	overflow: hidden;
+}
+.publicidad #publicidad-texto{
+	width: 80%;
+	text-align: center;
+}
+.publicidad #publicidad-link{
+	width: 20%;
+	text-align: center;
 }
 /* bloque5*/
 .descripcion
 {
+	width: 100%;
 	background-color: gray;
 	margin-bottom: 20px;
+	overflow: hidden;
 }
-
+.descripcion #porque{
+	width: 35%;
+	text-align: justify;
+}
+.descripcion #ultimos-proyectos{
+	width: 65%;
+}
 /* bloque6*/
 .tecnologias
 {
-	background-color: brown;
+	background-color: white;
 	margin-bottom: 20px;
 }
 
