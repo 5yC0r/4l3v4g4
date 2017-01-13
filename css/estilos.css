@@ -28,6 +28,7 @@ ul{
 	z-index: 99;
 	clear: both;
 	overflow: hidden;
+	border-radius: 5px;
 	-webkit-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	-moz-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
@@ -52,10 +53,14 @@ ul{
 	/*width: 25%;*/
 	background-color: white;
 }
+.navegador li a{
+	padding: 20px 18px;
+}
+
 .navegador
 {
 	/*width: 75%;*/
-	background-color: gray;
+	background-color: white;
 	right: 0;
 }
 
@@ -63,17 +68,24 @@ ul{
 	list-style: none; 
 	position: relative;
 	display: inline-block; 
-	border-right: 1px solid #eeeeee; 
-	padding-right: 10px;
-	padding-left: 10px;
-	font-size: 20px;
+	padding-top: 20px;
+	font-size: 16px;
 	font-weight: 700;
+    border-right: 1px solid #eeeeee;
 }
 
 .navegador li a{
 	text-decoration: none;
 	color: #3a3a3a;
 	text-transform: uppercase;
+}
+
+.navegador a:hover, .inicio > a{
+	background: url(../images/main-menu_hover.png);
+}
+
+.navegador a:hover, .navegador .inicio > a{
+	color: white;
 }
 
 /* bloque2*/
