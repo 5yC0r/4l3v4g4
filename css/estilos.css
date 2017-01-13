@@ -81,7 +81,8 @@ ul{
 }
 
 .navegador a:hover, .inicio > a{
-	background: url(../images/main-menu_hover.png);
+	background-color: red;
+	/*background: url(../images/main-menu_hover.png);*/
 }
 
 .navegador a:hover, .navegador .inicio > a{

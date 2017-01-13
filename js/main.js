@@ -8,5 +8,5 @@ $(document).ready(function(){
 	});
 
 
-	$('#slider').coinslider({ width: 900, height: 400, navigation: false, delay: 3000 });
+	$('#slider').coinslider({ width: 1200, height: 500, navigation: false, delay: 3000 });
 });
