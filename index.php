@@ -3,10 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Syar Corp</title>
+	<link rel='stylesheet' href='css/camera.css' media='all'> 
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/coin-slider-styles.css">
 
 	<script src="js/jquery.js"></script>
+	<script type='text/javascript' src='js/camera/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='js/camera/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='js/camera/camera.js'></script>
 	<script src="js/coin-slider.js"></script>
 	<script src="js/main.js"></script>
 </head>
@@ -35,6 +39,7 @@
 		</div>
 
 		<!-- bloque dos silder -->
+		<!--
 		<div id="slider">
 			<a href="img01_url" target="_blank">
 				<img src='images/1.jpg' >
@@ -49,7 +54,16 @@
 				</span>
 			</a>
 		</div>
-
+		-->
+		<div id="slider">
+			<div class="camera_wrap camera_azure_skin" id = "camera_wrap">
+			    <div data-src="images/1.jpg">
+			    	<div class="camera_caption">Aqui se puede poner texto</div>
+			    </div>
+			    <div data-src="images/2.jpg"></div>
+			</div>
+		</div>
+		
 
 		<!-- bloque tres Areas de darrollo  -->
 		<div class="areas">
