@@ -18,4 +18,7 @@ $(document).ready(function(){
 		time: 3000,
 
 	});
+	
+      $('.carousel').carousel();
+  
 });

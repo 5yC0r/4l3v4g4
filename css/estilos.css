@@ -32,7 +32,12 @@ ul{
 	-webkit-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	-moz-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
+	height: 80px;
 }
+nav {
+    height: 80px !important;
+}
+
 /*
 .menu-fijo
 {
@@ -89,6 +94,21 @@ ul{
 	color: white;
 }
 
+.nav-wrapper .brand-logo img
+{
+ 	height: 80px;
+}
+
+nav{
+	background-color: white !important;
+}
+
+nav ul a {
+    font-size: 1.5rem !important;
+    padding: 10px 15px !important;
+    color: red !important; 
+}
+
 /* bloque2*/
 #slider
 {
@@ -113,11 +133,44 @@ ul{
 	margin: 0 auto;
 	text-align: center;
 }
-.cuadro-area{
+.area{
 	width: 24%;
-	height: 100px;
-	background-color: white;
-	display: inline-block;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.circulo
+{
+	border-radius: 50%;
+    height: 150px;
+    background-color: red;
+    width: 150px;
+    margin: 0px auto;
+    position: relative;
+    top: 15px;
+
+}
+.grow:hover
+{
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
+}
+.cuadrado {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    margin: 10px;
+    margin-top: -50px;
+}
+
+.area .cuadrado h5 
+{
+	text-align: center;
+	padding-top: 50px;
+
 }
 
 /* bloque4*/
@@ -136,6 +189,13 @@ ul{
 .publicidad #publicidad-link{
 	width: 20%;
 	text-align: center;
+	margin-top: 20px;
+}
+div#publicidad-link a {
+    background-color: gray;
+    padding: 10px 30px;
+    font-size: 22px;
+    color: white;
 }
 /* bloque5*/
 .descripcion
@@ -146,11 +206,17 @@ ul{
 	overflow: hidden;
 }
 .descripcion #porque{
-	width: 35%;
+	width: 30%;
 	text-align: justify;
+    margin-top: 40px;
+    padding-left: 35px;
+}
+div#porque-titulo {
+    margin-bottom: 20px;
+    text-align: center;
 }
 .descripcion #ultimos-proyectos{
-	width: 65%;
+	width: 70%;
 }
 /* bloque6*/
 .tecnologias
