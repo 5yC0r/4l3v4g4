@@ -89,61 +89,79 @@
 			<div class="contenedor-areas">
 				<div class="area">
 					<div class="circulo grow">
-						
+						<div class="foto-area"></div>
 					</div>
 					<div class="cuadrado">
-						<h5>DESARROLLO WEB</h5>
-						<p>Syar Corp ofrece el servicio de desarrollo de sistemas
-						web, junto a este brindamos tambien el servicio de alquiler
-						de hosting y venta de dominios.
-						De este modo nuetros clientes no solo tendran una página
-						web propia con un diseño elegante, sino tambien alojamiento 
-						en la nube con un dominio propio a gusto y necesidad</p>
+						<div class="area-info">
+							<div class="titulo-area">
+								<h5>DESARROLLO WEB</h5>
+							</div>
+							<div class="descripcion-area">
+								<p>Syar Corp ofrece el servicio de desarrollo de sistemas
+								web, junto a este brindamos tambien el servicio de alquiler
+								de hosting y venta de dominios.
+								De este modo nuetros clientes no solo tendran una página
+								web propia con un diseño elegante, sino tambien alojamiento 
+								en la nube con un dominio propio a gusto y necesidad</p>
+							</div>
+						</div>
 					</div>				
 				</div>
 				<div class="area">
 					<div class="circulo grow">
-						
+						<div class="foto-area"></div>
 					</div>
 					<div class="cuadrado">
-						<h5>SERVICIO TÉCNICO</h5>
-						<p>Problemas con tu Pc o laptop?
-						Tenemos un grupo de técnicos capcitados que les ayudarán 
-						a solucionar de forma rápida y eficiente.
-						Si busca algún complemento para su Pc como: 
-						Teclados, algún mouse, memorias o USB o speakers entre otros
-						Nosotros también se lo podemos brindar en las mejores marcas
-						y modelos</p>
+						<div class="area-info">
+							<div class="titulo-area">
+								<h5>SERVICIO TÉCNICO</h5>
+							</div>
+							<div class="descripcion-area">
+								<p>Problemas con tu Pc o laptop?
+								Tenemos un grupo de técnicos capcitados que les ayudarán 
+								a solucionar de forma rápida y eficiente.
+								Si busca algún complemento para su Pc como: 
+								Teclados, algún mouse, memorias o USB o speakers entre otros
+								Nosotros también se lo podemos brindar en las mejores marcas
+								y modelos</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+				<div class="area">
+					<div class="circulo grow">
+						<div class="foto-area"></div>
+					</div>
+					<div class="cuadrado">
+						<div class="area-info">
+							<div class="titulo-area">
+								<h5>APLICACIONES ANDROID</h5>
+							</div>
+							<div class="descripcion-area">
+								<p>Si lo tuyo no son las páginas web  y prefieres utilizar las
+								aplicaciones de tu móvil por ser más dinámicas y tener mayor 
+								accesabilidad al tenerlas; tenemos también servicio de creación 
+								de tefónos android,
+								ya sea para negocio o simplemente por  entretenimiento, solo
+								necesitamos las especificaciones y tu app sera una realidad.</p>
+							</div>
+						</div>
 					</div>
 					
 				</div>	
 				<div class="area">
 					<div class="circulo grow">
-						
+						<div class="foto-area"></div>
 					</div>
 					<div class="cuadrado">
-						<h5>APLICACIONES ANDROID</h5>
-						<p>Si lo tuyo no son las páginas web  y prefieres utilizar las
-						aplicaciones de tu móvil por ser más dinámicas y tener mayor 
-						accesabilidad al tenerlas; tenemos también servicio de creación 
-						de tefónos android,
-						ya sea para negocio o simplemente por  entretenimiento, solo
-						necesitamos las especificaciones y tu app sera una realidad.</p>
-					</div>
-					
-				</div>	
-				<div class="area">
-					<div class="circulo grow">
-						
-					</div>
-					<div class="cuadrado">
-						<h5>SERVIDORES</h5>
-						<p>Si lo tuyo no son las páginas web  y prefieres utilizar las
-						aplicaciones de tu móvil por ser más dinámicas y tener mayor 
-						accesabilidad al tenerlas; tenemos también servicio de creación 
-						de tefónos android,
-						ya sea para negocio o simplemente por  entretenimiento, solo
-						necesitamos las especificaciones y tu app sera una realidad.</p>
+						<div class="area-info">
+							<div class="titulo-area">
+								<h5>SERVIDORES</h5>
+							</div>
+							<div class="descripcion-area">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vestibulum feugiat neque non dignissim. Fusce et ultricies leo. Duis ultricies a dolor vel placerat. Sed consectetur elementum nunc eget porttitor. Cras viverra, leo ac aliquam vehicula, orci nulla pellentesque tellus, eu luctus felis diam vel tortor. Quisque aliquam eros sit amet lectus elementum, eget blandit elit tempor. </p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>			
