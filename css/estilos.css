@@ -1,6 +1,12 @@
+body{
+	background: url(../images/background.png);
+}
+ul{
+	list-style: none;
+}
 .contenedor-global
 {
-	width: 1200px;
+	width: 998px;
 	margin: 0 auto;
 }
 
@@ -13,26 +19,68 @@
 	float: right;
 }
 
-ul{
-	list-style: none;
+/* bloque0*/
+.contacto{
+	overflow: hidden;
+}
+.top-menu li{
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid #3a3a3a;
+    padding: 0 8px 0 5px;
+}
+.top-menu li a{
+	color: black;
+}
+.redes-sociales{
+	padding: 16px 0;
+}
+.redes-sociales a{
+	background: url(../images/icons/social-icons.png) no-repeat;
+    height: 16px;
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-left: 13px;
 }
 
+.redes-sociales a.twitter {
+    background-position: 0 0;
+    width: 19px;
+}
+.redes-sociales a.twitter:hover { background-position: 0px -21px; }
+
+.redes-sociales a.facebook {
+    background-position: -23px 0;
+    width: 16px;
+}
+.redes-sociales a.facebook:hover { background-position: -23px -21px; }
+
+.redes-sociales a.youtube {
+    background-position: -86px 0;
+    width: 16px;
+}
+.redes-sociales a.youtube:hover { background-position: -86px -21px; }
 
 /* bloque1*/
 .menu
 {
 	background-color: white;
 	margin-bottom: 20px;
-	width: 1200px;
+	width: 998px;
 	margin: 0 auto;
 	z-index: 99;
 	clear: both;
 	overflow: hidden;
 	border-radius: 5px;
-	-webkit-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
+	/*-webkit-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	-moz-box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
 	box-shadow: 0px 5px 2px 0px rgba(171,164,171,1);
-	height: 80px;
+	height: 80px;*/
 }
 nav {
     height: 80px !important;
@@ -106,7 +154,7 @@ nav{
 nav ul a {
     font-size: 1.5rem !important;
     padding: 10px 15px !important;
-    color: red !important; 
+    color: black !important; 
 }
 
 /* bloque2*/
@@ -118,15 +166,17 @@ nav ul a {
 	margin: 20px auto;
 	height: 500px;
 }
+
 /* bloque3*/
 .areas
 {
-	background-color: green;
+	background-color: white;
 	margin-bottom: 20px;
 }
 #titulo-areas{
 	text-align: center;
 	font-size: 40px;
+	padding-top: 10px;
 }
 .contenedor-areas{
 	width: 100%;
@@ -136,11 +186,11 @@ nav ul a {
 	height: 620px;
 }
 .area{
-    width: 24%;
+    width: 23.79%;
     height: 600px;
     background-color: white;
     float: left;
-    border: 1px solid gray;
+    border: 1px solid white;
     padding: 10px;
     margin: 6px;
 }
@@ -149,7 +199,7 @@ nav ul a {
 {
 	border-radius: 50%;
     height: 150px;
-    background-color: red;
+    background-color: gray;
     width: 150px;
     margin: 0px auto;
     /*
@@ -189,7 +239,7 @@ nav ul a {
 .publicidad
 {
 	width: 100%;
-	background-color: skyblue;
+	background-color: white;
 	margin-bottom: 20px;
 	overflow: hidden;
 }
@@ -212,7 +262,7 @@ div#publicidad-link a {
 .descripcion
 {
 	width: 100%;
-	background-color: gray;
+	background-color: white;
 	margin-bottom: 20px;
 	overflow: hidden;
 }
@@ -239,6 +289,6 @@ div#porque-titulo {
 /* bloque7*/
 .footer
 {
-	background-color: pink;
+	background-color: white;
 	margin-bottom: 20px;
 }

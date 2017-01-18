@@ -2,6 +2,7 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if ($(this).scrollTop()>10) {
 			$('.menu').css('position','fixed');
+			$('.menu').css('top','0');
 		}else{
 			$('.menu').css('position','initial');
 		}

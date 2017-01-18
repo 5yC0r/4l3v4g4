@@ -22,6 +22,22 @@
 <body>
 
 	<div class="contenedor-global">
+		<!--bloque 0 contacto y redes sociales-->
+		<div class="contacto">
+			<div class="top-menu left">
+				<ul>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="">Soporte</a></li>
+					<li><a href="">Medios de pago</a></li>
+					<li><a href="">Contacto</a></li>
+				</ul>
+			</div>
+			<div class="redes-sociales right">
+				<a href="" class="twitter"></a>
+				<a href="" class="facebook"></a>
+				<a href="" class="youtube"></a>
+			</div>
+		</div>
 
 		<!-- bloque uno logo y menu-->
 		<div class="menu">	
